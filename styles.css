@@ -1,0 +1,27 @@
+/* Estilos para imagens */
+@media (max-width: 768px) {
+    img {
+        width: 100%;
+        /* Garante que a imagem se ajuste na tela do celular */
+        max-width: none;
+        /* Remove o limite máximo de largura */
+    }
+
+    /* Estilos para vídeos */
+    video {
+        width: 100%;
+        /* Garante que o vídeo se ajuste na tela do celular */
+        height: auto;
+        /* Mantém a proporção do vídeo */
+    }
+
+    /* Estilos para iframes, caso você tenha vídeos embutidos */
+    iframe {
+        width: 100%;
+        /* Garante que o iframe se ajuste na tela do celular */
+        height: auto;
+        /* Mantém a proporção do iframe */
+        aspect-ratio: 16/9;
+        /* Define a proporção para manter o vídeo responsivo */
+    }
+}
