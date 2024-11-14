@@ -1,0 +1,73 @@
+/* Estilos para imagens */
+@media (max-width: 768px) {
+img {
+width: 100%;
+/* Garante que a imagem se ajuste na tela do celular */
+max-width: none;
+/* Remove o limite máximo de largura */
+}
+/* Estilos para vídeos */
+video {
+width: 100%;
+/* Garante que o vídeo se ajuste na tela do celular */
+height: auto;
+/* Mantém a proporção do vídeo */
+}
+/* Estilos para iframes, caso você tenha vídeos embutidos */
+iframe {
+width: 100%;
+/* Garante que o iframe se ajuste na tela do celular */
+height: auto;
+/* Mantém a proporção do iframe */
+aspect-ratio: 16/9;
+/* Define a proporção para manter o vídeo responsivo */
+}
+}
+footer {
+background-color: #2c2f33;
+/* Cor escura para contraste */
+color: #ffffff;
+padding: 20px 0;
+text-align: center;
+font-size: 14px;
+}
+.footer-content {
+max-width: 1200px;
+margin: auto;
+padding: 0 20px;
+}
+.footer-links,
+.social-media {
+display: flex;
+justify-content: center;
+gap: 15px;
+margin-top: 10px;
+}
+.footer-links a,
+.social-media a {
+color: #7289da;
+/* Cor de link */
+text-decoration: none;
+}
+.footer-links a:hover,
+.social-media a:hover {
+color: #99aab5;
+/* Cor de hover */
+}
+p {
+margin: 0;
+}
+footer {
+text-align: center;
+padding: 20px;
+background-color: #2b2b2b;
+/* Coloquei um fundo escuro para contraste, caso ainda não tenha */
+color: #fff;
+/* Cor branca para o texto */
+}
+footer p {
+margin: 10px 0;
+/* Define um espaço entre os parágrafos */
+line-height: 1.5;
+/* Melhora a legibilidade */
+}
