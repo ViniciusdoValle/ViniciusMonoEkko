@@ -1,0 +1,49 @@
+@media (max-width: 768px) {
+  img {
+    width: 100%;
+    max-width: none;
+  }
+
+  h2 {
+    display: inline-flex; /* Garante que os elementos fiquem na mesma linha */
+    align-items: center; /* Alinha tudo na vertical */
+    gap: 5px; /* Espaço entre o texto, o ícone e os ":" */
+    line-height: 1; /* Remove altura extra do texto */
+    white-space: nowrap; /* Evita que quebre a linha */
+}
+
+h2 img {
+    width: 25px; /* Define um tamanho fixo para o ícone */
+    height: 25px; /* Evita deformação */
+    display: inline-block; /* Mantém na mesma linha */
+    margin: 0; /* Remove qualquer margem que possa estar deslocando */
+    padding: 0;
+    vertical-align: middle; /* Centraliza o ícone com o texto */
+}
+
+h2 span {
+    font-size: 1em; /* Mantém os ":" do mesmo tamanho do texto */
+    vertical-align: middle; /* Alinha verticalmente */
+    display: inline-block; /* Evita que pule para baixo */
+}
+
+
+  video {
+    width: 100%;
+    height: auto;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+  }
+}
+
+footer {
+  background-color: #2c2f33;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+}
