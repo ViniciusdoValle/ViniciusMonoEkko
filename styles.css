@@ -1,0 +1,51 @@
+@media (max-width: 768px) {
+  img {
+    width: 100%;
+    max-width: none;
+  }
+
+  h2 {
+    display: flex; /* Permite organizar os elementos dentro do h2 */
+    align-items: center; /* Alinha os itens na vertical */
+    flex-wrap: wrap; /* Permite que os elementos quebrem linha */
+    gap: 5px; /* Pequeno espaço entre os elementos */
+}
+
+h2 img {
+  width: 25px; /* Tamanho fixo para o ícone */
+  height: 25px;
+  vertical-align: middle; /* Alinha com o texto */
+}
+
+.dois-pontos {
+  width: 100%; /* Faz os dois pontos ocuparem a linha inteira */
+  text-align: left; /* Mantém alinhado */
+}
+
+h2 span {
+    display: block; /* Faz os ":" irem para a linha de baixo */
+    text-align: left; /* Mantém alinhado corretamente */
+    margin-left: 30px; /* Move os ":" para a esquerda, alinhando com o texto */
+    font-size: 1em; /* Mantém o tamanho proporcional */
+}
+
+
+  video {
+    width: 100%;
+    height: auto;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+  }
+}
+
+footer {
+  background-color: #2c2f33;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+}
