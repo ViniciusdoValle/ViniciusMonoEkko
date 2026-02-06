@@ -1,0 +1,20 @@
+.buff-ekko {
+    display: flex;
+    align-items: center;   /* centraliza ícone e bloco de texto */
+    gap: 10px;
+}
+
+.buff-ekko img {
+    flex-shrink: 0;
+}
+
+.buff-text {
+    display: flex;         /* torna o texto um flex também */
+    align-items: center;   /* centraliza o texto verticalmente */
+    line-height: 1.4;
+}
+@media (max-width: 768px) {
+  .buff-text {
+    transform: translate(-4px, 8px); /* X, Y */
+  }
+}
